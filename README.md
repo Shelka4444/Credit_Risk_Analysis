@@ -1,11 +1,9 @@
 # Credit_Risk_Analysis
-Apply machine learning to solve analyze credit card risk.
-
 
 # Overview of the analysis:
 The purpose of this analysis is to develop a supervised machine learning algorithms to predict credit card risk for loan management. Using different techniques to train and evaluate models with unbalanced classes, it becomes possible to determine how to better evaluate good loans versus ricky loans. Greater confidence and accuracy in building prediction models helps companies monitor fraudulent transactions, retain customers, and to build more efficient business plans for continued growth and productivity.
 
-# Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+# Results:
 
 ## Oversampling
 <strong> Naive Random Sampling </strong>:
@@ -60,3 +58,4 @@ The balanced accuracy score is 92%.
 Due to the unbalanced nature of the data (high representation of low-risk loans to high-risk loans), the precision for high-risk loans is 9% with a sensitivity of 89%. The F1 score for high-risk loans is 16% which does not give us confidence in using this model for detecting risky loans.
 
 # Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+Six separate supervised machine learning models (Naive Random Sampling, SMOTE, Cluster Centroids, SMOTEENN, Balanced Random Forest Classifier, and Easy Ensemble AdaBooster Classifier) were used to assess accuracy of predicting high-risk loans from a large collection data. They were all excellent at detecting the overrepresented number of low-risk loans but missed the main goal of detecting risky financial agreements. Balanced accuracy scores ranged from 54% to as high as 92%. However, both precision and sensitivity scores for detecting high-risk loans were too low (1%-16%) to inspire confidence in these current models. Therefore, it is suggested to the loan institution supporting this analysis to investigate further models which will hopefully be able to detect high-risk loans with a higher degree of accuracy and frequency.  
