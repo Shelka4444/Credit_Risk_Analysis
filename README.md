@@ -54,7 +54,7 @@ Due to the unbalanced nature of the data (high representation of low-risk loans 
   <img src="https://github.com/Shelka4444/Credit_Risk_Analysis/blob/main/Resources/Images/Easy_Ensemble_AdaBooster_Classifier.png" alt="Easy Ensemble AdaBooster Classifier" width=750>
 </p>
 
-The balanced accuracy score is 92%.
+The balanced accuracy score is 92%, the highest in the group of represented models.
 Due to the unbalanced nature of the data (high representation of low-risk loans to high-risk loans), the precision for high-risk loans is 9% with a sensitivity of 89%. The F1 score for high-risk loans is 16% which does not give us confidence in using this model for detecting risky loans.
 
 # Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
