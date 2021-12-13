@@ -9,18 +9,36 @@ The purpose of this analysis is to develop a supervised machine learning algorit
 
 ## Oversampling
 <strong> Naive Random Sampling </strong>:
+<p align='center'>
+  <img src="https://github.com/Shelka4444/Credit_Risk_Analysis/blob/main/Resources/Images/Naive_Random_Oversampling.png" alt="Naive Random Oversampling" width=750>
+</p>
 
 <strong> SMOTE Oversampling </strong>:
+<p align='center'>
+  <img src="https://github.com/Shelka4444/Credit_Risk_Analysis/blob/main/Resources/Images/SMOTE_Oversampling.png" alt="SMOTE Oversampling" width=750>
+</p>
 
 ## Undersampling
 <strong> Cluster Centroids</strong>:
+<p align='center'>
+  <img src="https://github.com/Shelka4444/Credit_Risk_Analysis/blob/main/Resources/Images/Cluster_Centroids_Undersampling.png" alt="Cluster Centroids Undersampling" width=750>
+</p>
 
 ## Combination (Over and Under) Sampling
 <strong> SMOTEENN </strong>:
+<p align='center'>
+  <img src="https://github.com/Shelka4444/Credit_Risk_Analysis/blob/main/Resources/Images/Combo_Sampling.png" alt="Combination Sampling" width=750>
+</p>
 
 ## Ensemble Learners
 <strong> Balanced Random Forest Classifier </strong>:
+<p align='center'>
+  <img src="https://github.com/Shelka4444/Credit_Risk_Analysis/blob/main/Resources/Images/Balanced_Random_Forest_Classifier.png" alt="Balanced Random Forest Classifier" width=750>
+</p>
 
 <strong> Easy Ensemble AdaBoost Classifier </strong>:
+<p align='center'>
+  <img src="https://github.com/Shelka4444/Credit_Risk_Analysis/blob/main/Resources/Images/Easy_Ensemble_AdaBooster_Classifier.png" alt="Easy Ensemble AdaBooster Classifier" width=750>
+</p>
 
 # Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
